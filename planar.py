@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 11 13:39:03 2023
 
-@author: ktwhi
-"""
 import numpy as np
 import scipy as sp
 from pywavefront import Wavefront
