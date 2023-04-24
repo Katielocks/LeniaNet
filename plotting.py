@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr 23 21:13:26 2023
 
-@author: ktwhi
-"""
 import numpy as np
 import matplotlib.pyplot as plt
 import mpl_toolkits.mplot3d.art3d as art3d
@@ -30,8 +25,3 @@ def gol(obj, time, frames, m, s, radius):
     
     ani = FuncAnimation(fig, update, frames=time*frames, interval=1000/frames, repeat=True)
     plt.show()
-from pywavefront import Wavefront
-teapot_path = "C:/Users/ktwhi/OneDrive - University of Bristol/Python Scripts/Lenia3D/Net/teapot.obj"
-
-teapot = Wavefront(teapot_path, collect_faces=True)
-animate_mesh_gol(teapot,10,20,0.15,0.05,10)
