@@ -1,7 +1,6 @@
 
 import numpy as np
 import scipy as sp
-from pywavefront import Wavefront
 def generate_game_state(faces,n):
     ring = generate_ring_matrix(faces,n)
     A = np.random.random(len(faces))
